@@ -1,0 +1,20 @@
+{
+  "name": "ced-ws-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 kill",
+    "reload": "pm2 reload all"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^4.2.0",
+    "socket.io": "1.7.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^2.3.0"
+  }
+}
